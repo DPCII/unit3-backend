@@ -2,27 +2,20 @@
 // Require connection file and save to mongoose.
 const mongoose = require('../db/connection');
 
+// const authorSchema = new mongoose.Schema({
+//     authors: String
+// })
+
 const BookSchema = new mongoose.Schema({
-    id: Number,
-    url: String,
-    name: String,
-    country: {
-        name: String,
-        code: String,
-        timezone: String,
-    },
-    birthday: Date,
-    deathday: Date,
-    gender: String,
-    image: {
-        medium: String,
-        original: String,
-    },
-    _links: {
-        self: {
-            href: String,
-        },
-    },
+    volumeInfo: {
+        title: String,
+        authors: Array,
+        imageLinks: {
+        smallThumbnail: String,
+        thumbnail: String,
+    }},
+   
+    
 });
 
 const Book = mongoose.model("Books", BookSchema);

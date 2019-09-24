@@ -1,0 +1,68 @@
+{
+    "kind": "books#volume",
+    "id": "PQY4AQAAMAAJ",
+    "etag": "S63yPakowKk",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/PQY4AQAAMAAJ",
+    "volumeInfo": {
+      "title": "On War",
+      "authors": [
+        "Carl von Clausewitz"
+      ],
+      "publisher": "London, N. Trübner & Company",
+      "publishedDate": "1873",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "CORNELL:31924030718757"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "printType": "BOOK",
+      "categories": [
+        "Military art and science"
+      ],
+      "averageRating": 4.5,
+      "ratingsCount": 8,
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "0.1.1.0.full.1",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=PQY4AQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=PQY4AQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=PQY4AQAAMAAJ&printsec=frontcover&dq=war+inauthor:clausewitz&hl=&cd=1&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=PQY4AQAAMAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=PQY4AQAAMAAJ"
+    },
+    "saleInfo": {
+      "country": "US",
+      "saleability": "FREE",
+      "isEbook": true,
+      "buyLink": "https://play.google.com/store/books/details?id=PQY4AQAAMAAJ&rdid=book-PQY4AQAAMAAJ&rdot=1&source=gbs_api"
+    },
+    "accessInfo": {
+      "country": "US",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": true,
+        "downloadLink": "http://books.google.com/books/download/On_War.pdf?id=PQY4AQAAMAAJ&hl=&output=pdf&sig=ACfU3U3fTIcgqjXdRcqofFtvSO-nVR1MFQ&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=PQY4AQAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  }
