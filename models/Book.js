@@ -2,9 +2,6 @@
 // Require connection file and save to mongoose.
 const mongoose = require('../db/connection');
 
-// const authorSchema = new mongoose.Schema({
-//     authors: String
-// })
 
 const BookSchema = new mongoose.Schema({
     volumeInfo: {
