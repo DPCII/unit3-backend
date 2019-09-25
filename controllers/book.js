@@ -11,7 +11,7 @@ module.exports = {
     },
     id: (req, res) => {
         //Return Book by _id
-        Book.find({ _id: req.params._id }).then(output => res.json(output))
+        Book.find({ "_id": req.params.id }).then(output => res.json(output))
     },
     newBook: (req, res) => {
         //Create new Book
@@ -21,11 +21,11 @@ module.exports = {
     update: (req, res) => {
         //Modify Book by _id search
         const requestBody = req.body;
-        Book.findOneAndUpdate({ _id: req.params._id }, { requestBody }, { new: true })
+        Book.findOneAndUpdate({ "_id": req.params.id }, { requestBody }, { new: true })
         .then(output => res.json(output))
     },
     delete: (req, res) => {
         //Delete Book entry by _id search
-        Book.findOneAndDelete({ _id: req.params._id }).then(output => res.json(output))
+        Book.findOneAndDelete({ "_id": req.params.id }).then(output => res.json(output))
     },
 }
