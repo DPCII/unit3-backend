@@ -11,6 +11,9 @@ const BookSchema = new mongoose.Schema({
         smallThumbnail: String,
         thumbnail: String,
     }},
+    searchInfo: {
+        textSnippet: String
+    }
    
     
 });
