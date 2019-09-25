@@ -14,8 +14,12 @@ app.use(cors());
 // Instantiating controllers
 app.use('/api/books/', bookRoutes)
 
+app.get('/', function (req, res) {
+    res.redirect('/api/books/')
+  })
 
-app.set("port", process.env.PORT || 8080);
+
+app.set("port", process.env.PORT || 8081);
 
 app.listen(app.get("port"), () => {
   console.log(` PORT: ${app.get("port")} `);
